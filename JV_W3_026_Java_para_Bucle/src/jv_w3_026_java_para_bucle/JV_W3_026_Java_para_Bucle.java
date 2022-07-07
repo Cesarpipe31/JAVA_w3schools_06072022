@@ -1,5 +1,6 @@
 /*
 Java para bucle
+Java para bucle
 Cuando sepa exactamente cuántas veces desea atravesar un bloque de código, use el bucle en lugar de un bucle:forwhile
 
 Sintaxis
@@ -45,7 +46,6 @@ Use un bucle para imprimir "Sí" 5 veces.for
 }
 
 Comience el ejercicio
-
 */
 package jv_w3_026_java_para_bucle;
 
