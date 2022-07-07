@@ -1,8 +1,9 @@
 /*
-Instrucciones de Java Switch
-Utilice la instrucción para seleccionar uno de los muchos bloques de código que se van a ejecutar.switch
+Java Switch
+Java Switch Statements
+Use the switch statement to select one of many code blocks to be executed.
 
-Sintaxis
+Syntax
 switch(expression) {
   case x:
     // code block
@@ -13,15 +14,15 @@ switch(expression) {
   default:
     // code block
 }
-Así es como funciona:
+This is how it works:
 
-La expresión se evalúa una vez.switch
-El valor de la expresión se compara con los valores de cada .case
-Si hay una coincidencia, se ejecuta el bloque de código asociado.
-Las palabras clave y las palabras clave son opcionales, y se describirán más adelante en este capítulo.breakdefault
-En el ejemplo siguiente se utiliza el número de día de la semana para calcular el nombre del día de la semana:
+The switch expression is evaluated once.
+The value of the expression is compared with the values of each case.
+If there is a match, the associated block of code is executed.
+The break and default keywords are optional, and will be described later in this chapter
+The example below uses the weekday number to calculate the weekday name:
 
-Ejemplo
+Example
 int day = 4;
 switch (day) {
   case 1:
@@ -48,19 +49,19 @@ switch (day) {
 }
 // Outputs "Thursday" (day 4)
 
-La palabra clave break
-Cuando Java alcanza una palabra clave, sale del bloque de conmutación.break
+The break Keyword
+When Java reaches a break keyword, it breaks out of the switch block.
 
-Esto detendrá la ejecución de más pruebas de código y casos dentro del bloque.
+This will stop the execution of more code and case testing inside the block.
 
-Cuando se encuentra una coincidencia y el trabajo está hecho, es hora de un descanso. No hay necesidad de más pruebas.
+When a match is found, and the job is done, it's time for a break. There is no need for more testing.
 
-Una interrupción puede ahorrar mucho tiempo de ejecución porque "ignora" la ejecución de todo el resto del código en el bloque del conmutador.
+A break can save a lot of execution time because it "ignores" the execution of all the rest of the code in the switch block.
 
-La palabra clave predeterminada
-La palabra clave especifica algún código que se ejecutará si no hay coincidencia de mayúsculas y minúsculas:default
+The default Keyword
+The default keyword specifies some code to run if there is no case match:
 
-Ejemplo
+Example
 int day = 4;
 switch (day) {
   case 6:
@@ -75,11 +76,11 @@ switch (day) {
 // Outputs "Looking forward to the Weekend"
  
 
-Tenga en cuenta que si la instrucción se utiliza como la última instrucción en un bloque de conmutación, no necesita un interrupción.default
+Note that if the default statement is used as the last statement in a switch block, it does not need a break.
 
-Pruébese a sí mismo con ejercicios
-Ejercicio:
-Inserte las partes que faltan para completar la siguiente instrucción.switch
+Test Yourself With Exercises
+Exercise:
+Insert the missing parts to complete the following switch statement.
 
 int day = 2;
 switch (
@@ -95,9 +96,7 @@ switch (
 ;
 }
 
-Comience el ejercicio
-
-
+Start the Exercise
 */
 
 package jv_w3_024_switch;

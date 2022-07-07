@@ -1,63 +1,62 @@
 /*
-Matemáticas Java
-La clase Java Math tiene muchos métodos que le permiten realizar tareas matemáticas en números.
+Java Math
+The Java Math class has many methods that allows you to perform mathematical tasks on numbers.
 
-Matemáticas.max(x,y)
-El método se puede utilizar para encontrar el valor más alto de x e y:Math.max(x,y)
+Math.max(x,y)
+The Math.max(x,y) method can be used to find the highest value of x and y:
 
-Ejemplo
+Example
 Math.max(5, 10);
 
 Math.min(x,y)
-El método se puede utilizar para encontrar el valor más bajo de x e y:Math.min(x,y)
+The Math.min(x,y) method can be used to find the lowest value of x and y:
 
-Ejemplo
+Example
 Math.min(5, 10);
 
 Math.sqrt(x)
-El método devuelve la raíz cuadrada de x:Math.sqrt(x)
+The Math.sqrt(x) method returns the square root of x:
 
-Ejemplo
+Example
 Math.sqrt(64);
 
 Math.abs(x)
-El método devuelve el valor absoluto (positivo) de x:Math.abs(x)
+The Math.abs(x) method returns the absolute (positive) value of x:
 
-Ejemplo
+Example
 Math.abs(-4.7);
 
-Números aleatorios
-Math.random() devuelve un número aleatorio entre 0,0 (inclusive) y 1,0 (exclusivo):
+Random Numbers
+Math.random() returns a random number between 0.0 (inclusive), and 1.0 (exclusive):
 
-Ejemplo
+Example
 Math.random();
 
-Para obtener más control sobre el número aleatorio, por ejemplo, solo desea un número aleatorio entre 0 y 100, puede usar la siguiente fórmula:
+To get more control over the random number, e.g. you only want a random number between 0 and 100, you can use the following formula:
 
-Ejemplo
+Example
 int randomNum = (int)(Math.random() * 101);  // 0 to 100
 
-Referencia matemática completa
-Para obtener una referencia completa de los métodos matemáticos, vaya a nuestra Referencia de métodos matemáticos de Java.
+Complete Math Reference
+For a complete reference of Math methods, go to our Java Math Methods Reference.
 
-Pruébese a sí mismo con ejercicios
-Ejercicio:
-Utilice el método correcto para encontrar el valor más alto de y .xy
+Test Yourself With Exercises
+Exercise:
+Use the correct method to find the highest value of x and y.
 
 int x = 5;
 int y = 10;
 Math.
 (x, y);
 
-Comience el ejercicio
+Start the Exercise
 
 
+Java Math Methods
+The Java Math class has many methods that allows you to perform mathematical tasks on numbers.
 
-
-La clase Java Math tiene muchos métodos que le permiten realizar tareas matemáticas en números.
-
-Todos los métodos matemáticos
-Una lista de todos los métodos matemáticos se puede encontrar en la siguiente tabla:
+All Math Methods
+A list of all Math methods can be found in the table below:
 
 Method	Description	Return Type
 abs(x)	Returns the absolute value of x	double|float|int|long
@@ -96,6 +95,8 @@ tanh(x)	Returns the hyperbolic tangent of a double value	double
 toDegrees(x)	Converts an angle measured in radians to an approx. equivalent angle measured in degrees	double
 toRadians(x)	Converts an angle measured in degrees to an approx. angle measured in radians	double
 ulp(x)	Returns the size of the unit of least precision (ulp) of x	double|float
-Nota: Todos los métodos matemáticos son .static
+Note: All Math methods are static.
+
+
 
 */

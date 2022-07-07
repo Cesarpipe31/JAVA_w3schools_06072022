@@ -1,28 +1,28 @@
 /*
-Identificadores Java
-Identificadores
-Todas las variables Java deben identificarse con nombres únicos.
+Java Identifiers
+Identifiers
+All Java variables must be identified with unique names.
 
-Estos nombres únicos se denominan identificadores.
+These unique names are called identifiers.
 
-Los identificadores pueden ser nombres cortos (como x e y) o nombres más descriptivos (edad, suma, volumen total).
+Identifiers can be short names (like x and y) or more descriptive names (age, sum, totalVolume).
 
-Nota: Se recomienda utilizar nombres descriptivos para crear código comprensible y mantenible:
+Note: It is recommended to use descriptive names in order to create understandable and maintainable code:
 
-Ejemplo
+Example
 // Good
 int minutesPerHour = 60;
 
 // OK, but not so easy to understand what m actually is
 int m = 60;
 
-Las reglas generales para nombrar variables son:
+The general rules for naming variables are:
 
-Los nombres pueden contener letras, dígitos, guiones bajos y signos de dólar
-Los nombres deben comenzar con una letra
-Los nombres deben comenzar con una letra minúscula y no puede contener espacios en blanco
-Los nombres también pueden comenzar con $ y _ (pero no lo usaremos en este tutorial)
-Los nombres distinguen entre mayúsculas y minúsculas ("myVar" y "myvar" son variables diferentes)
-Las palabras reservadas (como las palabras clave de Java, como o ) no se pueden usar como nombresintboolean
+Names can contain letters, digits, underscores, and dollar signs
+Names must begin with a letter
+Names should start with a lowercase letter and it cannot contain whitespace
+Names can also begin with $ and _ (but we will not use it in this tutorial)
+Names are case sensitive ("myVar" and "myvar" are different variables)
+Reserved words (like Java keywords, such as int or boolean) cannot be used as names
 
 */

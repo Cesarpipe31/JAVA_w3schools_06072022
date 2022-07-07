@@ -1,15 +1,16 @@
 /*
-Tipos de datos no primitivos
-Los tipos de datos no primitivos se denominan tipos de referencia porque se refieren a objetos.
+Java Non-Primitive Data Types
+Non-Primitive Data Types
+Non-primitive data types are called reference types because they refer to objects.
 
-La principal diferencia entre los tipos de datos primitivos y no primitivos son:
+The main difference between primitive and non-primitive data types are:
 
-Los tipos primitivos están predefinidos (ya definidos) en Java. Los tipos no primitivos son creados por el programador y no están definidos por Java (excepto por ).String
-Los tipos no primitivos se pueden usar para llamar a métodos para realizar ciertas operaciones, mientras que los tipos primitivos no pueden.
-Un tipo primitivo siempre tiene un valor, mientras que los tipos no primitivos pueden ser .null
-Un tipo primitivo comienza con una letra minúscula, mientras que los tipos no primitivos comienzan con una letra mayúscula.
-El tamaño de un tipo primitivo depende del tipo de datos, mientras que los tipos no primitivos tienen el mismo tamaño.
-Ejemplos de tipos no primitivos son Strings, Arrays, Classes, Interface, etc. Aprenderá más sobre estos en un capítulo posterior.
+Primitive types are predefined (already defined) in Java. Non-primitive types are created by the programmer and is not defined by Java (except for String).
+Non-primitive types can be used to call methods to perform certain operations, while primitive types cannot.
+A primitive type has always a value, while non-primitive types can be null.
+A primitive type starts with a lowercase letter, while non-primitive types starts with an uppercase letter.
+The size of a primitive type depends on the data type, while non-primitive types have all the same size.
+Examples of non-primitive types are Strings, Arrays, Classes, Interface, etc. You will learn more about these in a later chapter.
 
 
 */

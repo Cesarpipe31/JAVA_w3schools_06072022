@@ -1,13 +1,13 @@
 /*
-Java Romper y continuar
-Salto de Java
-Ya ha visto la declaración utilizada en un capítulo anterior de este tutorial. Se usaba para "saltar" de una declaración.breakswitch
+Java Break and Continue
+Java Break
+You have already seen the break statement used in an earlier chapter of this tutorial. It was used to "jump out" of a switch statement.
 
-La instrucción también se puede usar para saltar fuera de un bucle.break
+The break statement can also be used to jump out of a loop.
 
-En este ejemplo se detiene el bucle cuando i es igual a 4:
+This example stops the loop when i is equal to 4:
 
-Ejemplo
+Example
 for (int i = 0; i < 10; i++) {
   if (i == 4) {
     break;
@@ -16,12 +16,12 @@ for (int i = 0; i < 10; i++) {
 }
  
 
-Java Continuar
-La instrucción interrumpe una iteración (en el bucle), si se produce una condición especificada, y continúa con la siguiente iteración en el bucle.continue
+Java Continue
+The continue statement breaks one iteration (in the loop), if a specified condition occurs, and continues with the next iteration in the loop.
 
-En este ejemplo se omite el valor de 4:
+This example skips the value of 4:
 
-Ejemplo
+Example
 for (int i = 0; i < 10; i++) {
   if (i == 4) {
     continue;
@@ -30,10 +30,10 @@ for (int i = 0; i < 10; i++) {
 }
  
 
-Romper y continuar en While Loop
-También puede usar y en bucles mientras:breakcontinue
+Break and Continue in While Loop
+You can also use break and continue in while loops:
 
-Ejemplo de ruptura
+Break Example
 int i = 0;
 while (i < 10) {
   System.out.println(i);
@@ -44,7 +44,7 @@ while (i < 10) {
 }
  
 
-Ejemplo de continue
+Continue Example
 int i = 0;
 while (i < 10) {
   if (i == 4) {
@@ -56,9 +56,9 @@ while (i < 10) {
 }
  
 
-Pruébese a sí mismo con ejercicios
-Ejercicio:
-Detenga el bucle si es 5.i
+Test Yourself With Exercises
+Exercise:
+Stop the loop if i is 5.
 
 for (int i = 0; i < 10; i++) {
   if (i == 5) {   
@@ -68,7 +68,9 @@ for (int i = 0; i < 10; i++) {
   System.out.println(i);
 }
 
-Comience el ejercicio
+Start the Exercise
+
+
 */
 
 package ja_w3_028_break_and_continue;

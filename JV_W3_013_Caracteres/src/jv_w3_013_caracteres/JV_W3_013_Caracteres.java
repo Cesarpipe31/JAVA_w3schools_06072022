@@ -1,31 +1,32 @@
 /*
-Caracteres
-El tipo de datos se utiliza para almacenar un solo carácter. El carácter debe estar rodeado de comillas simples, como 'A' o 'c':char
+Java Characters
+Characters
+The char data type is used to store a single character. The character must be surrounded by single quotes, like 'A' or 'c':
 
-Ejemplo
+Example
 char myGrade = 'B';
 System.out.println(myGrade);
 
-Alternativamente, si está familiarizado con los valores ASCII, puede usarlos para mostrar ciertos caracteres:
+Alternatively, if you are familiar with ASCII values, you can use those to display certain characters:
 
-Ejemplo
+Example
 char myVar1 = 65, myVar2 = 66, myVar3 = 67;
 System.out.println(myVar1);
 System.out.println(myVar2);
 System.out.println(myVar3);
 
-Propina: Puede encontrar una lista de todos los valores ASCII en nuestra Referencia de tabla ASCII.
+Tip: A list of all ASCII values can be found in our ASCII Table Reference.
 
-Instrumentos de cuerda
-El tipo de datos se utiliza para almacenar una secuencia de caracteres (texto). Los valores de cadena deben estar rodeados de comillas dobles:String
+Strings
+The String data type is used to store a sequence of characters (text). String values must be surrounded by double quotes:
 
-Ejemplo
+Example
 String greeting = "Hello World";
 System.out.println(greeting);
 
-El tipo String es tan utilizado e integrado en Java, que algunos lo llaman "el noveno tipo especial".
+The String type is so much used and integrated in Java, that some call it "the special ninth type".
 
-Una cadena en Java es en realidad un tipo de datos no primitivo, porque se refiere a un objeto. El objeto String tiene métodos que se utilizan para realizar determinadas operaciones en cadenas. No te preocupes si aún no entiendes el término "objeto". Aprenderemos más sobre cadenas y objetos en un capítulo posterior.
+A String in Java is actually a non-primitive data type, because it refers to an object. The String object has methods that are used to perform certain operations on strings. Don't worry if you don't understand the term "object" just yet. We will learn more about strings and objects in a later chapter.
+
 
 */
-

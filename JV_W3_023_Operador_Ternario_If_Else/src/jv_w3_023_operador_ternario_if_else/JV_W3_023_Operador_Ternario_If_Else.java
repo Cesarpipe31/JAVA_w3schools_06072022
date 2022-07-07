@@ -1,15 +1,15 @@
 /*
-Java Mano corta si... Else (Operador Ternario)
-Mano corta si... Más
-También hay una abreviatura si no, que se conoce como el operador ternario porque consta de tres operandos.
+Java Short Hand If...Else (Ternary Operator)
+Short Hand If...Else
+There is also a short-hand if else, which is known as the ternary operator because it consists of three operands.
 
-Se puede usar para reemplazar varias líneas de código con una sola línea, y se usa con mayor frecuencia para reemplazar instrucciones simples si más:
+It can be used to replace multiple lines of code with a single line, and is most often used to replace simple if else statements:
 
-Sintaxis
+Syntax
 variable = (condition) ? expressionTrue :  expressionFalse;
-En lugar de escribir:
+Instead of writing:
 
-Ejemplo
+Example
 int time = 20;
 if (time < 18) {
   System.out.println("Good day.");
@@ -17,16 +17,16 @@ if (time < 18) {
   System.out.println("Good evening.");
 }
 
-Simplemente puedes escribir:
+You can simply write:
 
-Ejemplo
+Example
 int time = 20;
 String result = (time < 18) ? "Good day." : "Good evening.";
 System.out.println(result);
 
-Pruébese a sí mismo con ejercicios
-Ejercicio:
-Inserte las partes que faltan para completar la siguiente "mano corta si... else" declaración:
+Test Yourself With Exercises
+Exercise:
+Insert the missing parts to complete the following "short hand if...else" statement:
 
 int time = 20;
 String result = 
@@ -36,9 +36,8 @@ time < 18
  "Good evening.";
 System.out.println(result); 
 
-Comience el ejercicio
+Start the Exercise
 */
-
 package jv_w3_023_operador_ternario_if_else;
 
 public class JV_W3_023_Operador_Ternario_If_Else{

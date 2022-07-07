@@ -1,79 +1,81 @@
 /*
 Java Variables
-Las variables son contenedores para almacenar valores de datos.
+Java Variables
+Variables are containers for storing data values.
 
-En Java, hay diferentes tipos de variables, por ejemplo:
+In Java, there are different types of variables, for example:
 
-String - almacena texto, como "Hola". Los valores de cadena están rodeados de comillas dobles
-int - almacena enteros (números enteros), sin decimales, como 123 o -123
-float - almacena números de coma flotante, con decimales, como 19.99 o -19.99
-char - almacena caracteres individuales, como 'a' o 'B'. Los valores char están rodeados de comillas simples
-boolean - almacena valores con dos estados: true o false
-Declarar (crear) variables
-Para crear una variable, debe especificar el tipo y asignarle un valor:
+String - stores text, such as "Hello". String values are surrounded by double quotes
+int - stores integers (whole numbers), without decimals, such as 123 or -123
+float - stores floating point numbers, with decimals, such as 19.99 or -19.99
+char - stores single characters, such as 'a' or 'B'. Char values are surrounded by single quotes
+boolean - stores values with two states: true or false
+Declaring (Creating) Variables
+To create a variable, you must specify the type and assign it a value:
 
-Sintaxis
+Syntax
 type variableName = value;
-Donde type es uno de los tipos de Java (como o ), y variableName es el nombre de la variable (como x o name). El signo igual se utiliza para asignar valores a la variable.intString
+Where type is one of Java's types (such as int or String), and variableName is the name of the variable (such as x or name). The equal sign is used to assign values to the variable.
 
-Para crear una variable que debería almacenar texto, vea el siguiente ejemplo:
+To create a variable that should store text, look at the following example:
 
-Ejemplo
-Cree una variable llamada nombre de tipo y asígnele el valor "John":String
+Example
+Create a variable called name of type String and assign it the value "John":
 
 String name = "John";
 System.out.println(name);
 
-Para crear una variable que debería almacenar un número, vea el siguiente ejemplo:
+To create a variable that should store a number, look at the following example:
 
-Ejemplo
-Cree una variable llamada myNum de tipo y asígnele el valor 15:int
+Example
+Create a variable called myNum of type int and assign it the value 15:
 
 int myNum = 15;
 System.out.println(myNum);
 
-También puede declarar una variable sin asignar el valor y asignar el valor más adelante:
+You can also declare a variable without assigning the value, and assign the value later:
 
-Ejemplo
+Example
 int myNum;
 myNum = 15;
 System.out.println(myNum);
 
-Tenga en cuenta que si asigna un nuevo valor a una variable existente, sobrescribirá el valor anterior:
+Note that if you assign a new value to an existing variable, it will overwrite the previous value:
 
-Ejemplo
-Cambie el valor de de a :myNum1520
+Example
+Change the value of myNum from 15 to 20:
 
 int myNum = 15;
 myNum = 20;  // myNum is now 20
 System.out.println(myNum);
 
-Variables finales
-Si no desea que otros (o usted mismo) sobrescriban los valores existentes, use la palabra clave (esto declarará la variable como "final" o "constante", lo que significa inmutable y de solo lectura):final
+Final Variables
+If you don't want others (or yourself) to overwrite existing values, use the final keyword (this will declare the variable as "final" or "constant", which means unchangeable and read-only):
 
-Ejemplo
+Example
 final int myNum = 15;
 myNum = 20;  // will generate an error: cannot assign a value to a final variable
 
-Otros tipos
-Una demostración de cómo declarar variables de otros tipos:
+Other Types
+A demonstration of how to declare variables of other types:
 
-Ejemplo
+Example
 int myNum = 5;
 float myFloatNum = 5.99f;
 char myLetter = 'D';
 boolean myBool = true;
 String myText = "Hello";
-Obtendrá más información sobre los tipos de datos en la siguiente sección.
+You will learn more about data types in the next section.
 
-Pruébese a sí mismo con ejercicios
-Ejercicio:
-Cree una variable con nombre y asígnele el valor.carNameVolvo
+Test Yourself With Exercises
+Exercise:
+Create a variable named carName and assign the value Volvo to it.
 
  
  = 
 ;
 
-Comience el ejercicio
+Start the Exercise
+
 
 */

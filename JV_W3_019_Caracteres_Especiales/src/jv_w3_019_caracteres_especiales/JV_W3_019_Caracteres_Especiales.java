@@ -1,32 +1,33 @@
 /*
-Caracteres especiales
-Debido a que las cadenas deben escribirse entre comillas, Java malinterpretará esta cadena y generará un error:
+Java Special Characters
+Special Characters
+Because strings must be written within quotes, Java will misunderstand this string, and generate an error:
 
 String txt = "We are the so-called "Vikings" from the north.";
-La solución para evitar este problema, es utilizar el carácter de escape de barra invertida.
+The solution to avoid this problem, is to use the backslash escape character.
 
-El carácter de escape de barra diagonal inversa () convierte los caracteres especiales en caracteres de cadena:\
+The backslash (\) escape character turns special characters into string characters:
 
 Escape character	Result	Description
 \'	'	Single quote
 \"	"	Double quote
 \\	\	Backslash
-La secuencia inserta una comillas dobles en una cadena:\"
+The sequence \"  inserts a double quote in a string:
 
-Ejemplo
+Example
 String txt = "We are the so-called \"Vikings\" from the north.";
 
-La secuencia inserta una sola comilla en una cadena:\'
+The sequence \'  inserts a single quote in a string:
 
-Ejemplo
+Example
 String txt = "It\'s alright.";
 
-La secuencia inserta una sola barra diagonal inversa en una cadena:\\
+The sequence \\  inserts a single backslash in a string:
 
-Ejemplo
+Example
 String txt = "The character \\ is called backslash.";
 
-Otras secuencias de escape comunes que son válidas en Java son:
+Other common escape sequences that are valid in Java are:
 
 Code	Result	Try it
 \n	New Line	
@@ -34,4 +35,5 @@ Code	Result	Try it
 \t	Tab	
 \b	Backspace	
 \f	Form Feed	
+
 */

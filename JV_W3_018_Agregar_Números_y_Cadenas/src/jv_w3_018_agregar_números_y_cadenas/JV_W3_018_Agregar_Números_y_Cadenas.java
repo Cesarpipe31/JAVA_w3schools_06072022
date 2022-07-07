@@ -1,29 +1,32 @@
 /*
-Agregar números y cadenas
-¡ADVERTENCIA!
+Java Numbers and Strings
+Adding Numbers and Strings
+WARNING!
 
-Java utiliza el operador tanto para la adición como para la concatenación.+
+Java uses the + operator for both addition and concatenation.
 
-Se suman números. Las cadenas están concatenadas.
+Numbers are added. Strings are concatenated.
 
-Si sumas dos números, el resultado será un número:
+If you add two numbers, the result will be a number:
 
-Ejemplo
+Example
 int x = 10;
 int y = 20;
 int z = x + y;  // z will be 30 (an integer/number)
 
-Si agrega dos cadenas, el resultado será una concatenación de cadenas:
+If you add two strings, the result will be a string concatenation:
 
-Ejemplo
+Example
 String x = "10";
 String y = "20";
 String z = x + y;  // z will be 1020 (a String)
 
-Si agrega un número y una cadena, el resultado será una concatenación de cadena:
+If you add a number and a string, the result will be a string concatenation:
 
-Ejemplo
+Example
 String x = "10";
 int y = 20;
 String z = x + y;  // z will be 1020 (a String)
+
+
 */

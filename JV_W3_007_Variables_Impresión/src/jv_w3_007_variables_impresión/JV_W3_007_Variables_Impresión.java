@@ -1,75 +1,33 @@
 /*
-Variables de impresión Java
-Variables de visualización
-El método se utiliza a menudo para mostrar variables.println()
+Java Print Variables
+Display Variables
+The println() method is often used to display variables.
 
-Para combinar texto y una variable, utilice el carácter:+
+To combine both text and a variable, use the + character:
 
-Ejemplo
+Example
 String name = "John";
 System.out.println("Hello " + name);
 
-También puede utilizar el carácter para agregar una variable a otra variable:+
+You can also use the + character to add a variable to another variable:
 
-Ejemplo
+Example
 String firstName = "John ";
 String lastName = "Doe";
 String fullName = firstName + lastName;
 System.out.println(fullName);
 
-Para los valores numéricos, el carácter funciona como un operador matemático (nótese que usamos variables (enteras) aquí):+int
+For numeric values, the + character works as a mathematical operator (notice that we use int (integer) variables here):
 
-Ejemplo
+Example
 int x = 5;
 int y = 6;
 System.out.println(x + y); // Print the value of x + y
 
-Del ejemplo anterior, puede esperar:
+From the example above, you can expect:
 
-x almacena el valor 5
-y almacena el valor 6
-Luego usamos el método para mostrar el valor de x + y, que es 11println()
-
- MIPÁGINA+1
-
-NUEVO
-Acabamos de lanzar
-los videos de W3Schools
-
-
-Explora ahora
-SELECTOR DE COLOR
-selector de color
-   
-¡Obtén la certificación
-completando
-un curso de Java
-hoy!
-
-w
-3
-s
-c
-h
-o
-o
-l
-s
-C
-E
-R
-T
-Yo
-F
-Yo
-E
-D
-.
-2
-0
-2
-2
-JUEGO DE CÓDIGO
-Juego de código
+x stores the value 5
+y stores the value 6
+Then we use the println() method to display the value of x + y, which is 11
 
 */

@@ -1,38 +1,37 @@
 /*
+Java Output
+Java Output
+You learned from the previous chapter that you can use the println() method to output values or print text in Java:
 
-Salida Java
-Aprendió del capítulo anterior que puede usar el método para generar valores o imprimir texto en Java:println()
-
-Ejemplo
+Example
 System.out.println("Hello World!");
 
-Puede agregar tantos métodos como desee. Tenga en cuenta que agregará una nueva línea para cada método:println()
+You can add as many println() methods as you want. Note that it will add a new line for each method:
 
-Ejemplo
+Example
 System.out.println("Hello World!");
 System.out.println("I am learning Java.");
 System.out.println("It is awesome!");
 
-También puede generar números y realizar cálculos matemáticos:
+You can also output numbers, and perform mathematical calculations:
 
-Ejemplo
+Example
 System.out.println(3 + 3);
 
-Tenga en cuenta que no usamos comillas dobles () dentro de los números de salida.""println()
+Note that we don't use double quotes ("") inside println() to output numbers.
 
-El método Print()
-También hay un método, que es similar a .print()println()
+The Print() Method
+There is also a print() method, which is similar to println().
 
-La única diferencia es que no inserta una nueva línea al final de la salida:
+The only difference is that it does not insert a new line at the end of the output:
 
-Ejemplo
+Example
 System.out.print("Hello World! ");
 System.out.print("I will print on the same line.");
 
-Tenga en cuenta que agregamos un espacio adicional (después de "¡Hola mundo!" en el ejemplo anterior), para una mejor legibilidad.
+Note that we add an extra space (after "Hello World!" in the example above), for better readability.
 
-En este tutorial, solo lo usaremos ya que facilita la lectura de la salida del código.println()
-
+In this tutorial, we will only use println() as it makes it easier to read the output of code.
 */
 
 package jv_w3_004_salida_java;

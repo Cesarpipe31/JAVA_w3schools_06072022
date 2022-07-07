@@ -1,38 +1,39 @@
 /*
-Bucles
-Los bucles pueden ejecutar un bloque de código siempre que se alcance una condición especificada.
+Java While Loop
+Loops
+Loops can execute a block of code as long as a specified condition is reached.
 
-Los bucles son útiles porque ahorran tiempo, reducen los errores y hacen que el código sea más legible.
+Loops are handy because they save time, reduce errors, and they make code more readable.
 
 Java While Loop
-El bucle recorre un bloque de código siempre que una condición especificada sea:whiletrue
+The while loop loops through a block of code as long as a specified condition is true:
 
-Sintaxis
+Syntax
 while (condition) {
   // code block to be executed
 }
-En el siguiente ejemplo, el código del bucle se ejecutará, una y otra vez, siempre que una variable (i) sea inferior a 5:
+In the example below, the code in the loop will run, over and over again, as long as a variable (i) is less than 5:
 
-Ejemplo
+Example
 int i = 0;
 while (i < 5) {
   System.out.println(i);
   i++;
 }
 
-Nota: No olvide aumentar la variable utilizada en la condición, de lo contrario, ¡el bucle nunca terminará!
+Note: Do not forget to increase the variable used in the condition, otherwise the loop will never end!
 
-El bucle Do/While
-El bucle es una variante del bucle. Este bucle ejecutará el bloque de código una vez, antes de verificar si la condición es verdadera, luego repetirá el bucle siempre que la condición sea verdadera.do/whilewhile
+The Do/While Loop
+The do/while loop is a variant of the while loop. This loop will execute the code block once, before checking if the condition is true, then it will repeat the loop as long as the condition is true.
 
-Sintaxis
+Syntax
 do {
   // code block to be executed
 }
 while (condition);
-En el ejemplo siguiente se utiliza un bucle. El bucle siempre se ejecutará al menos una vez, incluso si la condición es falsa, porque el bloque de código se ejecuta antes de que se pruebe la condición:do/while
+The example below uses a do/while loop. The loop will always be executed at least once, even if the condition is false, because the code block is executed before the condition is tested:
 
-Ejemplo
+Example
 int i = 0;
 do {
   System.out.println(i);
@@ -40,11 +41,11 @@ do {
 }
 while (i < 5);
 
-No olvide aumentar la variable utilizada en la condición, de lo contrario, ¡el bucle nunca terminará!
+Do not forget to increase the variable used in the condition, otherwise the loop will never end!
 
-Pruébese a sí mismo con ejercicios
-Ejercicio:
-Imprima siempre que sea inferior a 6.ii
+Test Yourself With Exercises
+Exercise:
+Print i as long as i is less than 6.
 
 int i = 1;
  (i < 6) {
@@ -53,7 +54,7 @@ int i = 1;
 ;
 }
 
-Comience el ejercicio
+Start the Exercise
 */
 
 package jv_w3_025_bucles;

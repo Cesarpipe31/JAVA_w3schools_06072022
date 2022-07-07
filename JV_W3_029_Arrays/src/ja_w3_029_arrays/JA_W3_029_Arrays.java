@@ -1,30 +1,30 @@
 /*
- Java
-Matrices Java
-Las matrices se utilizan para almacenar varios valores en una sola variable, en lugar de declarar variables separadas para cada valor.
+Java Arrays
+Java Arrays
+Arrays are used to store multiple values in a single variable, instead of declaring separate variables for each value.
 
-Para declarar una matriz, defina el tipo de variable entre corchetes:
+To declare an array, define the variable type with square brackets:
 
 String[] cars;
-Ahora hemos declarado una variable que contiene una matriz de cadenas. Para insertarle valores, podemos usar un literal de matriz: coloque los valores en una lista separada por comas, dentro de llaves rizadas:
+We have now declared a variable that holds an array of strings. To insert values to it, we can use an array literal - place the values in a comma-separated list, inside curly braces:
 
 String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
-Para crear una matriz de enteros, puede escribir:
+To create an array of integers, you could write:
 
 int[] myNum = {10, 20, 30, 40};
-Acceso a los elementos de un arreglo de discos
-Para acceder a un elemento de matriz, haga referencia al número de índice.
+Access the Elements of an Array
+You access an array element by referring to the index number.
 
-Esta declaración accede al valor del primer elemento en los automóviles:
+This statement accesses the value of the first element in cars:
 
-Ejemplo
+Example
 String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
 System.out.println(cars[0]);
 // Outputs Volvo
 
-Nota: Los índices de matriz comienzan con 0: [0] es el primer elemento. [1] es el segundo elemento, etc.
+Note: Array indexes start with 0: [0] is the first element. [1] is the second element, etc.
 
-Cambiar un elemento array
+Change an Array Element
 To change the value of a specific element, refer to the index number:
 
 Example
@@ -36,7 +36,7 @@ System.out.println(cars[0]);
 // Now outputs Opel instead of Volvo
 
 Array Length
-To find out how many elements an array has, use the property:length
+To find out how many elements an array has, use the length property:
 
 Example
 String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
@@ -45,10 +45,12 @@ System.out.println(cars.length);
 
 Test Yourself With Exercises
 Exercise:
-Create an array of type called .Stringcars
+Create an array of type String called cars.
 
  
  = {"Volvo", "BMW", "Ford"};
 
 Start the Exercise
+
+
 */

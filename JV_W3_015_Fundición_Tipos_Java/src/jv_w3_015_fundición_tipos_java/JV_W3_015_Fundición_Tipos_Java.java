@@ -1,18 +1,19 @@
 /*
-Fundición de tipos Java
-La conversión de tipos es cuando se asigna un valor de un tipo de datos primitivo a otro tipo.
+Java Type Casting
+Java Type Casting
+Type casting is when you assign a value of one primitive data type to another type.
 
-En Java, hay dos tipos de casting:
+In Java, there are two types of casting:
 
-Ampliación de la conversión (automáticamente): conversión de un tipo más pequeño a un tamaño de tipo más grande
+Widening Casting (automatically) - converting a smaller type to a larger type size
 byte -> short -> char -> int -> long -> float -> double
 
-Fundición de estrechamiento (manualmente): conversión de un tipo más grande a un tipo de tamaño más pequeño
+Narrowing Casting (manually) - converting a larger type to a smaller size type
 double -> float -> long -> int -> char -> short -> byte
-Fundición de ensanchamiento
-La ampliación de la fundición se realiza automáticamente al pasar un tipo de tamaño más pequeño a un tipo de tamaño más grande:
+Widening Casting
+Widening casting is done automatically when passing a smaller size type to a larger size type:
 
-Ejemplo
+Example
 public class Main {
   public static void main(String[] args) {
     int myInt = 9;
@@ -23,10 +24,10 @@ public class Main {
   }
 }
 
-Fundición de estrechamiento
-La fundición de estrechamiento debe hacerse manualmente colocando el tipo entre paréntesis delante del valor:
+Narrowing Casting
+Narrowing casting must be done manually by placing the type in parentheses in front of the value:
 
-Ejemplo
+Example
 public class Main {
   public static void main(String[] args) {
     double myDouble = 9.78d;
@@ -36,6 +37,8 @@ public class Main {
     System.out.println(myInt);      // Outputs 9
   }
 }
+
+
 */
 
 package jv_w3_015_fundición_tipos_java;

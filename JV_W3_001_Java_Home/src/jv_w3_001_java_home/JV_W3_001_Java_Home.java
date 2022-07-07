@@ -1,29 +1,29 @@
 /*
-Tutorial de Java
-Java es un lenguaje de programación popular.
+Java Tutorial
+Java is a popular programming language.
 
-Java se utiliza para desarrollar aplicaciones móviles, aplicaciones web, aplicaciones de escritorio, juegos y mucho más.
+Java is used to develop mobile apps, web apps, desktop apps, games and much more.
 
-Ejemplos en cada capítulo
-Nuestro editor "Pruébelo usted mismo" facilita el aprendizaje de Java. Puede editar el código Java y ver el resultado en su navegador.
+Examples in Each Chapter
+Our "Try it Yourself" editor makes it easy to learn Java. You can edit Java code and view the result in your browser.
 
-Ejemplo
+Example
 public class Main {
   public static void main(String[] args) {
     System.out.println("Hello World");
   }
 }
 
-Haga clic en el botón "Ejecutar ejemplo" para ver cómo funciona.
+Click on the "Run example" button to see how it works.
 
-Recomendamos leer este tutorial, en la secuencia que aparece en el menú de la izquierda.
+We recommend reading this tutorial, in the sequence listed in the left menu.
 
-Java es un lenguaje orientado a objetos y algunos conceptos pueden ser nuevos. Tome descansos cuando sea necesario y repase los ejemplos tantas veces como sea necesario.
+Java is an object oriented language and some concepts may be new. Take breaks when needed, and go over the examples as many times as needed.
 
-Ejercicios Java
-Pruébese a sí mismo con ejercicios
-Ejercicio:
-Inserte la parte que falta del código a continuación para generar "Hello World".
+Java Exercises
+Test Yourself With Exercises
+Exercise:
+Insert the missing part of the code below to output "Hello World".
 
 public class MyClass {
   public static void main(String[] args) {
@@ -36,21 +36,23 @@ public class MyClass {
 
 Start the Exercise
 
-Cuestionario de Java
-Pon a prueba tus habilidades de Java con un cuestionario.
+Java Quiz
+Test your Java skills with a quiz.
 
 
-Aprende por ejemplos
-¡Aprende con ejemplos! Este tutorial complementa todas las explicaciones con ejemplos aclaratorios.
+Learn by Examples
+Learn by examples! This tutorial supplements all explanations with clarifying examples.
 
 
-Referencia java
-Palabras clave Java
+Java Reference
+Java Keywords
 
-Java String Métodos
+Java String Methods
 
-Métodos matemáticos de Java
+Java Math Methods
 
-Descargar Java
-Descargar Java desde el sitio web oficial de Java: https://www.oracle.com
+Download Java
+Download Java from the official Java web site: https://www.oracle.com
+
+
 */

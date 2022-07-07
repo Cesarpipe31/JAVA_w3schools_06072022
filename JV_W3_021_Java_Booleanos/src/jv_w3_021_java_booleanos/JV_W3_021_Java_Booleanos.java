@@ -1,61 +1,61 @@
 /*
+Java Booleans
+Java Booleans
+Very often, in programming, you will need a data type that can only have one of two values, like:
 
-Java Booleanos
-Muy a menudo, en la programación, necesitará un tipo de datos que solo pueda tener uno de dos valores, como:
+YES / NO
+ON / OFF
+TRUE / FALSE
+For this, Java has a boolean data type, which can take the values true or false.
 
-SÍ / NO
-ENCENDIDO / APAGADO
-VERDADERO / FALSO
-Para esto, Java tiene un tipo de datos, que puede tomar los valores o .booleantruefalse
+Boolean Values
+A boolean type is declared with the boolean keyword and can only take the values true or false:
 
-Valores booleanos
-Un tipo booleano se declara con la palabra clave y sólo puede tomar los valores o :booleantruefalse
-
-Ejemplo
+Example
 boolean isJavaFun = true;
 boolean isFishTasty = false;
 System.out.println(isJavaFun);     // Outputs true
 System.out.println(isFishTasty);   // Outputs false
 
-Sin embargo, es más común devolver valores booleanos de expresiones booleanas, para pruebas condicionales (ver más abajo).
+However, it is more common to return boolean values from boolean expressions, for conditional testing (see below).
 
-Expresión booleana
-Una expresión booleana es una expresión Java que devuelve un valor booleano: o .truefalse
+Boolean Expression
+A Boolean expression is a Java expression that returns a Boolean value: true or false.
 
-Puede utilizar un operador de comparación, como el operador mayor que () para averiguar si una expresión (o una variable) es verdadera:>
+You can use a comparison operator, such as the greater than (>) operator to find out if an expression (or a variable) is true:
 
-Ejemplo
+Example
 int x = 10;
 int y = 9;
 System.out.println(x > y); // returns true, because 10 is higher than 9
 
-O incluso más fácil:
+Or even easier:
 
-Ejemplo
+Example
 System.out.println(10 > 9); // returns true, because 10 is higher than 9
 
-In the examples below, we use the equal to () operator to evaluate an expression:==
+In the examples below, we use the equal to (==) operator to evaluate an expression:
 
-Ejemplo
+Example
 int x = 10;
 System.out.println(x == 10); // returns true, because the value of x is equal to 10
 
-Ejemplo
+Example
 System.out.println(10 == 15); // returns false, because 10 is not equal to 15
 
-El valor booleano de una expresión es la base de todas las comparaciones y condiciones de Java.
+The Boolean value of an expression is the basis for all Java comparisons and conditions.
 
-Aprenderá más sobre las condiciones en el próximo capítulo.
+You will learn more about conditions in the next chapter.
 
-Pruébese a sí mismo con ejercicios
-Ejercicio:
-Rellene las piezas que faltan para imprimir los valores y:truefalse
+Test Yourself With Exercises
+Exercise:
+Fill in the missing parts to print the values true and false:
 
  isJavaFun = true;
  isFishTasty = false;
 System.out.println(isJavaFun);
 System.out.println(isFishTasty);
 
-Comience el ejercicio
+Start the Exercise
 */
 
